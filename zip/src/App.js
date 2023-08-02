@@ -7,7 +7,6 @@ import 'tippy.js/dist/tippy.css';
 import Images from './components/Images';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Tak from './components/Tak';
 
 function App() {
 
@@ -29,7 +28,7 @@ const showselected=(val)=>{
       <Header showselected={showselected} images={images} setImages={setImages} getPhotos={getPhotos} />
         <Images buttonval={buttonval} images={images} />
             <Footer/>
-      {/* <Tak/> */}
+      
     </div>
   );
 }

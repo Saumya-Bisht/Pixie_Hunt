@@ -52,28 +52,3 @@ footer{
   background-color:#0dcaf0 ;
   font-size: larger;
 }
-#h1{
-  color: #03505f;
-  overflow: hidden;
-  border-right: 0.15em solid azure; /* Change the color as desired */
-  white-space: nowrap;
-  animation: typewriter 5s steps(40) 1s;
-}
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-#h1two{
-  opacity: 0;
-  animation: fadeIn 3s ease-in-out forwards;
-  color: #03505f;
-}
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
